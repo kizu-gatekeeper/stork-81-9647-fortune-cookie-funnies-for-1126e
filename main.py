@@ -7,7 +7,7 @@ it through MAKEFUN_OUTPUT_DIR.
 
 import os
 
-ENTRY = "Your code will compile on the first try today. (This cookie was written by someone who has never seen your code.)"
+ENTRY = "Your code will compile on the first try today. (This cookie has clearly never read your pull requests.)"
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/tmp/out")
